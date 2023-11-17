@@ -39,6 +39,10 @@ main {
 }
 
 /*header*/
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -108,10 +112,6 @@ main {
 .address-details:hover,
 .address-details:focus {
   color: #404bbf;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
 }
 
 /*section 1*/
@@ -188,8 +188,7 @@ main {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
- {
-}
+
 .advantages-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
