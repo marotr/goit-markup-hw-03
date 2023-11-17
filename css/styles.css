@@ -170,7 +170,7 @@ main {
   align-items: flex-start;
   margin-right: 0;
 }
-.advantages-title {
+.visually-hidden {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -178,8 +178,6 @@ main {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -190,6 +188,8 @@ main {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+ {
 }
 .advantages-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
