@@ -79,6 +79,7 @@ main {
   color: #2e2f42;
   letter-spacing: 0.32px;
   text-decoration: none;
+  padding: 24px 0;
 }
 .menu:hover {
   color: #404bbf;
@@ -119,7 +120,7 @@ main {
 
 .main-first {
   background-color: #2e2f42;
-
+  padding: 188px 0;
   flex-shrink: 0;
   text-align: center;
 }
@@ -130,12 +131,13 @@ main {
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 1.12px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
 }
 
 .button {
-  background: #4d5ae5;
+  display: block;
+  background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -144,11 +146,11 @@ main {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   height: 56px;
-  width: 169px;
+  min-width: 169px;
   border: none;
-  margin-top: 48px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 48px auto;
 }
 .button:hover {
   background: #404bbf;
